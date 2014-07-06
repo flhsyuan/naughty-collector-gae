@@ -51,7 +51,7 @@ public class WeatherHelper {
    * @return
    */
   private ObservationHashMap readWeather(String target) {
-    logger.info("requesting weather:" + target);
+//    logger.info("requesting weather:" + target);
 
     SAXParserFactory spf = SAXParserFactory.newInstance();
 
@@ -147,7 +147,7 @@ public class WeatherHelper {
     WxStationList wxStationList = dataBaseFacade.selectAllAirports();
     if (wxStationList.isEmpty()) {
       WxStation wxStation = createDefaultStation();
-      dataBaseFacade.saveStation(wxStation);
+      dataBaseFacade.save(wxStation);
       wxStationList.add(wxStation);
     }
 
@@ -162,7 +162,7 @@ public class WeatherHelper {
         WxObservation observation = converter(hashMap);
         WxObservation selected = dataBaseFacade.selectObservation(observation.getAirport(), observation.getTimeStamp());
         if (selected == null) {
-          dataBaseFacade.saveObservation(observation);
+          dataBaseFacade.save(observation);
         } else {
           ++duplicateObservation;
         }

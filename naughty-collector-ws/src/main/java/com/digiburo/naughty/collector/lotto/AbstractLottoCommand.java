@@ -36,7 +36,7 @@ public abstract class AbstractLottoCommand {
 
       URLFetchService fetchService = URLFetchServiceFactory.getURLFetchService();
       HTTPResponse response = fetchService.fetch(httpRequest);
-      System.out.println(response.getResponseCode());
+//      System.out.println(response.getResponseCode());
       if (response.getResponseCode() < 400) {
         result = new String(response.getContent());
       }
@@ -46,6 +46,41 @@ public abstract class AbstractLottoCommand {
     }
 
     return result;
+  }
+
+  /**
+   *
+   * @param arg
+   * @return
+   */
+  int monthConverter(final String arg) {
+    if (arg.equals("Jan")) {
+      return 0;
+    } else if (arg.equals("Feb")) {
+      return 1;
+    } else if (arg.equals("Mar")) {
+      return 2;
+    } else if (arg.equals("Apr")) {
+      return 3;
+    } else if (arg.equals("May")) {
+      return 4;
+    } else if (arg.equals("Jun")) {
+      return 5;
+    } else if (arg.equals("Jul")) {
+      return 6;
+    } else if (arg.equals("Aug")) {
+      return 7;
+    } else if (arg.equals("Sep")) {
+      return 8;
+    } else if (arg.equals("Oct")) {
+      return 9;
+    } else if (arg.equals("Nov")) {
+      return 10;
+    } else if (arg.equals("Dec")) {
+      return 11;
+    } else {
+      throw new IllegalArgumentException("bad month:" + arg);
+    }
   }
 
   /**

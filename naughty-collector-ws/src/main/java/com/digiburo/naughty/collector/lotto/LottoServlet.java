@@ -76,27 +76,27 @@ public class LottoServlet extends HttpServlet {
     switch (commandType) {
       case DAILY3:
         dataBaseFacade.writeLog(LogFacility.LOTTO, LogPriority.INFO, "collect Daily3");
-        commandHelper = new Daily3();
+        commandHelper = new Daily3Command();
         break;
       case DAILY4:
         dataBaseFacade.writeLog(LogFacility.LOTTO, LogPriority.INFO, "collect Daily4");
-        commandHelper = new Daily4();
+        commandHelper = new Daily4Command();
         break;
       case FANTASY5:
         dataBaseFacade.writeLog(LogFacility.LOTTO, LogPriority.INFO, "collect Fantasy5");
-        commandHelper = new Fantasy5();
+        commandHelper = new Fantasy5Command();
         break;
       case MEGA_MILLION:
         dataBaseFacade.writeLog(LogFacility.LOTTO, LogPriority.INFO, "collect MegaMillion");
-        commandHelper = new MegaMillion();
+        commandHelper = new MegaMillionCommand();
         break;
       case POWER_BALL:
         dataBaseFacade.writeLog(LogFacility.LOTTO, LogPriority.INFO, "collect PowerBall");
-        commandHelper = new PowerBall();
+        commandHelper = new PowerBallCommand();
         break;
       case SUPER_LOTTO:
         dataBaseFacade.writeLog(LogFacility.LOTTO, LogPriority.INFO, "collect SuperLotto");
-        commandHelper = new SuperLotto();
+        commandHelper = new SuperLottoCommand();
         break;
       default:
         logger.info("unsupported command type:" + commandType);
