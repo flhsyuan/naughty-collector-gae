@@ -1,4 +1,4 @@
 naughty-collector-gae
 =====================
 
-Naughty Collector (Google App Engine)
+Naughty Collector Server (Google App Engine)

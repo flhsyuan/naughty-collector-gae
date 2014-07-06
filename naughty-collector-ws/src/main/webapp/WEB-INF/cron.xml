@@ -1,0 +1,44 @@
+<cronentries>
+  <cron>
+    <url>/lotto?stunt=Daily3</url>
+    <description>Daily3 Collection</description>
+    <schedule>every 4 hours</schedule>
+    <timezone>America/Los_Angeles</timezone>
+  </cron>
+  <cron>
+    <url>/lotto?stunt=Daily4</url>
+    <description>Daily4 Collection</description>
+    <schedule>every 4 hours</schedule>
+    <timezone>America/Los_Angeles</timezone>
+  </cron>
+  <cron>
+    <url>/lotto?stunt=Fantasy5</url>
+    <description>Fantasy5 Collection</description>
+    <schedule>every 4 hours</schedule>
+    <timezone>America/Los_Angeles</timezone>
+  </cron>
+  <cron>
+    <url>/lotto?stunt=MegaMillion</url>
+    <description>MegaMillion Collection</description>
+    <schedule>every 4 hours</schedule>
+    <timezone>America/Los_Angeles</timezone>
+  </cron>
+  <cron>
+    <url>/lotto?stunt=PowerBall</url>
+    <description>PowerBall Collection</description>
+    <schedule>every 4 hours</schedule>
+    <timezone>America/Los_Angeles</timezone>
+  </cron>
+  <cron>
+    <url>/lotto?stunt=SuperLotto</url>
+    <description>SuperLotto Collection</description>
+    <schedule>every 4 hours</schedule>
+    <timezone>America/Los_Angeles</timezone>
+  </cron>
+  <cron>
+    <url>/weather</url>
+    <description>Weather Collection</description>
+    <schedule>every 30 minutes</schedule>
+    <timezone>America/Los_Angeles</timezone>
+  </cron>
+</cronentries>
