@@ -6,6 +6,7 @@ import com.digiburo.naughty.collector.datastore.entity.Fantasy5List;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 
@@ -55,6 +56,21 @@ public class Fantasy5Dao extends AbstractDao {
     Fantasy5 result = null;
     PreparedQuery preparedQuery = datastoreService.prepare(query);
     for (Entity entity:preparedQuery.asIterable()) {
+      result = converter(entity);
+    }
+
+    return result;
+  }
+
+  public Fantasy5 selectLatest() {
+    DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
+
+    Query query = new Query(Fantasy5.ENTITY_NAME);
+    query.addSort(Fantasy5.PROPERTY_DRAW, Query.SortDirection.DESCENDING);
+
+    Fantasy5 result = null;
+    PreparedQuery preparedQuery = datastoreService.prepare(query);
+    for (Entity entity:preparedQuery.asIterable(FetchOptions.Builder.withLimit(1))) {
       result = converter(entity);
     }
 

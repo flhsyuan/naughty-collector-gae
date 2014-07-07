@@ -2,47 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bb677a8-6811-4133-a38a-7c0210dcd78c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Daily3DaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily3List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Daily3Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Daily4DaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily4List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Daily4Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5DaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/MegaMillion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/MegaMillionList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/MegaMillionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/PowerBall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/PowerBallList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/PowerBallTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/SuperLotto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/SuperLottoList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/SuperLottoTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily3.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily3Command.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily4.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily4Command.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Fantasy5.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Fantasy5Command.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/MegaMillion.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/MegaMillionCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/PowerBall.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/PowerBallCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/SuperLotto.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/SuperLottoCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/AbstractLottoCommand.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/AbstractLottoCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/AbstractLinks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Daily3Helper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Daily3Response1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Daily4Helper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Daily4Response1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Fantasy5Helper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Fantasy5Response1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/MegaMillionHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/MegaMillionResponse1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/PowerBallHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/PowerBallResponse1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfLinkOnly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfNextLink.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfNextPreviousLink.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfPreviousLink.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/SuperLottoHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SuperLottoResponse1.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Observation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/ObservationList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/ObservationRequest1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/ObservationResponse1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/utility/ObservationList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/ObservationHelper.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/curl/local_authorize.sh" afterPath="$PROJECT_DIR$/naughty-collector-ws/curl/local_daily3.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/WebServiceController.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/LottoWebService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/AbstractHelper.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/AbstractHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/DataBaseFacade.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/DataBaseFacade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherHelper.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/webapp/WEB-INF/cron.xml" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/webapp/WEB-INF/cron.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherServlet.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/curl/remote_authorize.sh" afterPath="$PROJECT_DIR$/naughty-collector-ws/curl/remote_authorize.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="naughty-collector-gae.iws" />
@@ -97,28 +92,15 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="naughty-collector-gae" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SuperLottoCommand.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/SuperLottoCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66049385" vertical-offset="693" max-vertical-offset="2040">
-              <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -139,46 +121,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/WxStationTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/WxStationList.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/WxStationDaoTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/WxObservation.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/WxObservationTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/WxObservationDaoTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/WxStationDao.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/XmlHandler.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/WxObservationDao.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily3List.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Daily3DaoTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Daily3CommandDaoTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily3.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/utility/CalDate.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherHelper.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Daily3Test.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Daily4Test.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily4List.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily4.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Daily4DaoTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5List.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5Test.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5DaoTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily3Command.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily4Command.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/webapp/WEB-INF/cron.xml" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/MegaMillionList.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Fantasy5Command.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/AbstractLottoCommand.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/MegaMillion.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/MegaMillionCommand.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/PowerBallList.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/PowerBall.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/PowerBallTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDaoTest.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDaoTest.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/PowerBallCommand.java" />
@@ -186,10 +132,46 @@
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/SuperLotto.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/SuperLottoTest.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/MegaMillionTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDaoTest.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/DataBaseFacade.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/SuperLottoCommand.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherServlet.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/WebServiceController.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoWebService.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/curl/local_daily3.sh" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/JsonDaily3.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/JsonDaily3List.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/JsonDaily3Request1.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfLink.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/PreviousLink.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/NextLink.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfNextLink.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfPreviousLink.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/AbstractLinks.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfLinkOnly.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfNextPreviousLink.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/JsonDaily3Response1.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/AbstractHelper.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Daily3Response1.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Daily3Helper.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Daily4Helper.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Daily4Response1.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Fantasy5Response1.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Fantasy5Helper.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/MegaMillionResponse1.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/MegaMillionHelper.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/PowerBallResponse1.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/PowerBallHelper.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/DataBaseFacade.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SuperLottoResponse1.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/SuperLottoHelper.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/LottoWebService.java" />
       </list>
     </option>
   </component>
@@ -202,9 +184,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1090" />
+    <option name="x" value="135" />
+    <option name="y" value="49" />
+    <option name="width" value="1637" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -295,94 +278,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collector" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-gae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-gae" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-ws" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collector" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastore" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-gae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-gae" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-ws" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collector" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastore" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -466,7 +361,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lotto" />
+              <option name="myItemId" value="utility" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,45 +395,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="datastore" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-gae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-gae" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-ws" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collector" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastore" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="json" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,19 +423,21 @@
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.digiburo.naughty.collector.ws1" />
+      <recent name="com.digiburo.naughty.collector.json" />
+      <recent name="com.digiburo.naughty.collector.lotto" />
       <recent name="com.digiburo.naughty.collector.datastore.dao" />
       <recent name="com.digiburo.naughty.collector.datastore.entity" />
-      <recent name="com.digiburo.naughty.collector.weather" />
-      <recent name="com.digiburo.naughty.collector.servlet" />
-      <recent name="com.digiburo.naughty.collector.utility" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/naughty-collector-ws/src/main/webapp/WEB-INF" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.digiburo.naughty.collector.ws1" />
       <recent name="com.digiburo.naughty.collector.lotto" />
       <recent name="com.digiburo.naughty.collector.diagnostic" />
       <recent name="com.digiburo.naughty.collector.servlet" />
@@ -725,12 +584,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -739,6 +592,12 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -762,6 +621,17 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="naughty-collector-ws" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -776,19 +646,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -817,6 +674,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -875,12 +745,33 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="AppEngine Dev 1.9.6" type="GoogleAppEngineDevServer" factoryName="Local" APPLICATION_SERVER_NAME="AppEngine Dev 1.9.6" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="false" name="AppEngine Dev 1.9.6" type="GoogleAppEngineDevServer" factoryName="Local" APPLICATION_SERVER_NAME="AppEngine Dev 1.9.6" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ws/lotto/v1/daily3" />
       <server-settings>
         <option name="artifact" value="naughty-collector-ws:war exploded" />
       </server-settings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -972,15 +863,28 @@
       <workItem from="1404675298763" duration="1814000" />
       <workItem from="1404677994162" duration="1471000" />
       <workItem from="1404679840410" duration="34000" />
+      <workItem from="1404680637852" duration="199000" />
+      <workItem from="1404680889388" duration="151000" />
+      <workItem from="1404681827601" duration="18633000" />
+      <workItem from="1404701563721" duration="150000" />
+      <workItem from="1404702274378" duration="1669000" />
+      <workItem from="1404704446358" duration="222000" />
+      <workItem from="1404710164609" duration="2970000" />
+      <workItem from="1404713324907" duration="596000" />
+      <workItem from="1404714374801" duration="430000" />
+      <workItem from="1404715130199" duration="391000" />
+      <workItem from="1404715671508" duration="41000" />
+      <workItem from="1404715924605" duration="2569000" />
+      <workItem from="1404718708942" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61586000" />
+    <option name="totallyTimeSpent" value="89644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1090" extended-state="6" />
-    <editor active="true" />
+    <frame x="135" y="49" width="1637" height="1026" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -991,36 +895,36 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23875803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23269436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24248497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27335423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24089935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23947896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1039,8 +943,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23947896" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1061,365 +965,19 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily3List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30523255" vertical-offset="0" max-vertical-offset="688">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Daily3DaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08534851" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/WxObservationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5334282" vertical-offset="1680" max-vertical-offset="2850">
-          <caret line="143" column="50" selection-start-line="129" selection-start-column="0" selection-end-line="143" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/WxObservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7894737" vertical-offset="2" max-vertical-offset="1755">
-          <caret line="112" column="24" selection-start-line="109" selection-start-column="1" selection-end-line="112" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3361793" vertical-offset="0" max-vertical-offset="937">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/utility/CalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="4530">
-          <caret line="28" column="122" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5073#5074#0" expanded="false" />
-            <element signature="e#5118#5119#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw.examples/daily3.raw">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="184925" max-vertical-offset="185835">
-          <caret line="3297" column="0" selection-start-line="3297" selection-start-column="0" selection-end-line="3297" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7032967" vertical-offset="965" max-vertical-offset="2445">
-          <caret line="164" column="29" selection-start-line="164" selection-start-column="29" selection-end-line="164" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75617284" vertical-offset="0" max-vertical-offset="972">
-          <caret line="68" column="87" selection-start-line="68" selection-start-column="87" selection-end-line="68" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57098764" vertical-offset="0" max-vertical-offset="1095">
-          <caret line="47" column="47" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1020">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily4List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14423077" vertical-offset="0" max-vertical-offset="728">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.082417585" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Daily3Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28846154" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Daily4Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7307693" vertical-offset="0" max-vertical-offset="1380">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw.examples/daily4.raw">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="33735">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw.examples/fantasy5.raw">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="112140">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21604939" vertical-offset="0" max-vertical-offset="972">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
-          <caret line="36" column="173" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1110">
-          <caret line="36" column="73" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5DaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21703297" vertical-offset="487" max-vertical-offset="1230">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/Daily4DaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79395604" vertical-offset="487" max-vertical-offset="1215">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily3Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1740">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily4Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1192" max-vertical-offset="1920">
-          <caret line="112" column="133" selection-start-line="95" selection-start-column="1" selection-end-line="112" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/webapp/WEB-INF/cron.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69093406" vertical-offset="7" max-vertical-offset="735">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/MegaMillionList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21604939" vertical-offset="0" max-vertical-offset="972">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Fantasy5Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1010" max-vertical-offset="1980">
-          <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/AbstractLottoCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63873625" vertical-offset="0" max-vertical-offset="1335">
-          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/MegaMillion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1200">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/PowerBallList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21604939" vertical-offset="0" max-vertical-offset="972">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/entity/PowerBallTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.363636" vertical-offset="0" max-vertical-offset="1695">
-          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw.examples/powerball.raw">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/PowerBall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4010988" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9138187" vertical-offset="435" max-vertical-offset="1350">
-          <caret line="70" column="73" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7760989" vertical-offset="140" max-vertical-offset="1110">
-          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1538461" vertical-offset="60" max-vertical-offset="1185">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/PowerBallCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6203704" vertical-offset="1047" max-vertical-offset="2040">
-          <caret line="110" column="2" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="1740">
-          <caret line="77" column="97" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/SuperLottoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21604939" vertical-offset="0" max-vertical-offset="972">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/SuperLotto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0670103" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="99" column="24" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw.examples/superlotto.raw">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22200">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/test/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.114413" vertical-offset="0" max-vertical-offset="1320">
           <caret line="50" column="160" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1427,9 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.13670133" vertical-offset="677" max-vertical-offset="1680">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1437,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41208792" vertical-offset="210" max-vertical-offset="1605">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,32 +1009,311 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0027473" vertical-offset="980" max-vertical-offset="1950">
           <caret line="120" column="136" selection-start-line="105" selection-start-column="0" selection-end-line="120" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43209878" vertical-offset="0" max-vertical-offset="972">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/SuperLottoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25" vertical-offset="687" max-vertical-offset="1950">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily3List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.108024694" vertical-offset="0" max-vertical-offset="972">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw.examples/daily3.raw">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06349207" vertical-offset="0" max-vertical-offset="185835">
+          <caret line="4" column="3" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07716049" vertical-offset="0" max-vertical-offset="972">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/curl/local_daily3.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21604939" vertical-offset="0" max-vertical-offset="972">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Daily3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30906594" vertical-offset="75" max-vertical-offset="900">
+          <caret line="20" column="52" selection-start-line="15" selection-start-column="0" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/HrefContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.105932206" vertical-offset="0" max-vertical-offset="708">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfLinkOnly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23404256" vertical-offset="0" max-vertical-offset="705">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/AbstractLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12765957" vertical-offset="0" max-vertical-offset="705">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfNextLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10302198" vertical-offset="0" max-vertical-offset="728">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfPreviousLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.031678986" vertical-offset="0" max-vertical-offset="947">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfNextPreviousLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4532967" vertical-offset="0" max-vertical-offset="728">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/AbstractHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/DataBaseFacade.java">
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.043956" vertical-offset="770" max-vertical-offset="1740">
-          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.14423077" vertical-offset="0" max-vertical-offset="1455">
+          <caret line="7" column="56" selection-start-line="6" selection-start-column="49" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java">
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Daily3Response1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.98351645" vertical-offset="379" max-vertical-offset="1305">
-          <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.8796296" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/Daily3Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.68209875" vertical-offset="768" max-vertical-offset="1740">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Daily4Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6481481" vertical-offset="405" max-vertical-offset="1785">
+          <caret line="69" column="81" selection-start-line="69" selection-start-column="81" selection-end-line="69" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/SuperLottoCommand.java">
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Daily3Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66049385" vertical-offset="693" max-vertical-offset="2040">
-          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.46296296" vertical-offset="450" max-vertical-offset="1635">
+          <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/Fantasy5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="769" max-vertical-offset="1500">
+          <caret line="77" column="55" selection-start-line="62" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Daily4Response1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10302198" vertical-offset="0" max-vertical-offset="1110">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Fantasy5Response1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="1185">
+          <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Fantasy5Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6944444" vertical-offset="420" max-vertical-offset="1665">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8106996" vertical-offset="802" max-vertical-offset="1785">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="1380">
+          <caret line="78" column="15" selection-start-line="63" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/MegaMillionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/PowerBall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.066079296" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="3" column="85" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/PowerBallResponse1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11013216" vertical-offset="0" max-vertical-offset="1290">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/PowerBallHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1791483" vertical-offset="712" max-vertical-offset="1680">
+          <caret line="112" column="33" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0029368" vertical-offset="262" max-vertical-offset="1410">
+          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/MegaMillion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10866373" vertical-offset="31" max-vertical-offset="1200">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/entity/SuperLotto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5198238" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84875184" vertical-offset="457" max-vertical-offset="1410">
+          <caret line="78" column="58" selection-start-line="63" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/DataBaseFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6035242" vertical-offset="1419" max-vertical-offset="2190">
+          <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88986784" vertical-offset="414" max-vertical-offset="1410">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/LottoWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030837005" vertical-offset="3354" max-vertical-offset="4140">
+          <caret line="239" column="80" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/MegaMillionResponse1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1260">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SuperLottoResponse1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5947136" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/SuperLottoHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11894273" vertical-offset="1104" max-vertical-offset="1845">
+          <caret line="79" column="67" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

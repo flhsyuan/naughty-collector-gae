@@ -109,10 +109,13 @@ public class LottoServlet extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     logger.info("command doGet:" + request.getRemoteAddr());
 
-    LottoCommand command = serviceStunt(request);
-    workFlow(command);
-
-    //TODO test IP address and ensure invoked from cron
+    LottoCommand command = LottoCommand.UNKNOWN;
+    if ((request.getRemoteAddr().equals("0.1.0.1")) || (request.getRemoteAddr().equals("127.0.0.1"))) {
+      command = serviceStunt(request);
+      workFlow(command);
+    } else {
+      logger.info("skipping invocation, bad remote address");
+    }
 
     response.setContentType("text/html");
     PrintWriter pw = response.getWriter();

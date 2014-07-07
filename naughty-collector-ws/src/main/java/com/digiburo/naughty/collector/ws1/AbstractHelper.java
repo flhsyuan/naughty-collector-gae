@@ -4,7 +4,8 @@ package com.digiburo.naughty.collector.ws1;
  * Helper Parent
  */
 public abstract class AbstractHelper {
-  //empty
+  public static final String FAIL = "FAIL";
+  public static final String OK = "OK";
 }
 /*
  * Copyright 2014 Digital Burro, INC

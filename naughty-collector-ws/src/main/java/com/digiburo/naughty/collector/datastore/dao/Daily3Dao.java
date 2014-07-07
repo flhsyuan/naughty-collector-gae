@@ -2,11 +2,10 @@ package com.digiburo.naughty.collector.datastore.dao;
 
 import com.digiburo.naughty.collector.datastore.entity.Daily3;
 import com.digiburo.naughty.collector.datastore.entity.Daily3List;
-import com.digiburo.naughty.collector.datastore.entity.WxStation;
-import com.digiburo.naughty.collector.datastore.entity.WxStationList;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 
@@ -54,6 +53,21 @@ public class Daily3Dao extends AbstractDao {
     Daily3 result = null;
     PreparedQuery preparedQuery = datastoreService.prepare(query);
     for (Entity entity:preparedQuery.asIterable()) {
+      result = converter(entity);
+    }
+
+    return result;
+  }
+
+  public Daily3 selectLatest() {
+    DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
+
+    Query query = new Query(Daily3.ENTITY_NAME);
+    query.addSort(Daily3.PROPERTY_DRAW, Query.SortDirection.DESCENDING);
+
+    Daily3 result = null;
+    PreparedQuery preparedQuery = datastoreService.prepare(query);
+    for (Entity entity:preparedQuery.asIterable(FetchOptions.Builder.withLimit(1))) {
       result = converter(entity);
     }
 

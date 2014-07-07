@@ -5,6 +5,7 @@ import com.digiburo.naughty.collector.datastore.entity.SuperLottoList;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 
@@ -55,6 +56,21 @@ public class SuperLottoDao extends AbstractDao {
     SuperLotto result = null;
     PreparedQuery preparedQuery = datastoreService.prepare(query);
     for (Entity entity:preparedQuery.asIterable()) {
+      result = converter(entity);
+    }
+
+    return result;
+  }
+
+  public SuperLotto selectLatest() {
+    DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
+
+    Query query = new Query(SuperLotto.ENTITY_NAME);
+    query.addSort(SuperLotto.PROPERTY_DRAW, Query.SortDirection.DESCENDING);
+
+    SuperLotto result = null;
+    PreparedQuery preparedQuery = datastoreService.prepare(query);
+    for (Entity entity:preparedQuery.asIterable(FetchOptions.Builder.withLimit(1))) {
       result = converter(entity);
     }
 

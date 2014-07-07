@@ -6,6 +6,7 @@ import com.digiburo.naughty.collector.datastore.entity.Daily4List;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 
@@ -54,6 +55,21 @@ public class Daily4Dao extends AbstractDao {
     Daily4 result = null;
     PreparedQuery preparedQuery = datastoreService.prepare(query);
     for (Entity entity:preparedQuery.asIterable()) {
+      result = converter(entity);
+    }
+
+    return result;
+  }
+
+  public Daily4 selectLatest() {
+    DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
+
+    Query query = new Query(Daily4.ENTITY_NAME);
+    query.addSort(Daily4.PROPERTY_DRAW, Query.SortDirection.DESCENDING);
+
+    Daily4 result = null;
+    PreparedQuery preparedQuery = datastoreService.prepare(query);
+    for (Entity entity:preparedQuery.asIterable(FetchOptions.Builder.withLimit(1))) {
       result = converter(entity);
     }
 

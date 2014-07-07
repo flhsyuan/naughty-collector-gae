@@ -77,6 +77,11 @@ public class DataBaseFacade {
     return daily3Dao.selectOne(draw);
   }
 
+  public Daily3 selectLatestDaily3() {
+    Daily3Dao daily3Dao = new Daily3Dao();
+    return daily3Dao.selectLatest();
+  }
+
   public void save(Daily4 arg) {
     Daily4Dao daily4Dao = new Daily4Dao();
     daily4Dao.save(arg);
@@ -85,6 +90,11 @@ public class DataBaseFacade {
   public Daily4 selectDaily4(long draw) {
     Daily4Dao daily4Dao = new Daily4Dao();
     return daily4Dao.selectOne(draw);
+  }
+
+  public Daily4 selectLatestDaily4() {
+    Daily4Dao daily4Dao = new Daily4Dao();
+    return daily4Dao.selectLatest();
   }
 
   public void save(Fantasy5 arg) {
@@ -97,6 +107,11 @@ public class DataBaseFacade {
     return fantasy5Dao.selectOne(draw);
   }
 
+  public Fantasy5 selectLatestFantasy5() {
+    Fantasy5Dao fantasy5Dao = new Fantasy5Dao();
+    return fantasy5Dao.selectLatest();
+  }
+
   public void save(MegaMillion arg) {
     MegaMillionDao megaMillionDao = new MegaMillionDao();
     megaMillionDao.save(arg);
@@ -105,6 +120,11 @@ public class DataBaseFacade {
   public MegaMillion selectMegaMillion(long draw) {
     MegaMillionDao megaMillionDao = new MegaMillionDao();
     return megaMillionDao.selectOne(draw);
+  }
+
+  public MegaMillion selectLatestMegaMillion() {
+    MegaMillionDao megaMillionDao = new MegaMillionDao();
+    return megaMillionDao.selectLatest();
   }
 
   public void save(PowerBall arg) {
@@ -117,6 +137,11 @@ public class DataBaseFacade {
     return powerBallDao.selectOne(draw);
   }
 
+  public PowerBall selectLatestPowerBall() {
+    PowerBallDao powerBallDao = new PowerBallDao();
+    return powerBallDao.selectLatest();
+  }
+
   public void save(SuperLotto arg) {
     SuperLottoDao superLottoDao = new SuperLottoDao();
     superLottoDao.save(arg);
@@ -125,6 +150,11 @@ public class DataBaseFacade {
   public SuperLotto selectSuperLotto(long draw) {
     SuperLottoDao superLottoDao = new SuperLottoDao();
     return superLottoDao.selectOne(draw);
+  }
+
+  public SuperLotto selectLatestSuperLotto() {
+    SuperLottoDao superLottoDao = new SuperLottoDao();
+    return superLottoDao.selectLatest();
   }
 }
 /*

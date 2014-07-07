@@ -5,6 +5,7 @@ import com.digiburo.naughty.collector.datastore.entity.MegaMillionList;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 
@@ -55,6 +56,21 @@ public class MegaMillionDao extends AbstractDao {
     MegaMillion result = null;
     PreparedQuery preparedQuery = datastoreService.prepare(query);
     for (Entity entity:preparedQuery.asIterable()) {
+      result = converter(entity);
+    }
+
+    return result;
+  }
+
+  public MegaMillion selectLatest() {
+    DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
+
+    Query query = new Query(MegaMillion.ENTITY_NAME);
+    query.addSort(MegaMillion.PROPERTY_DRAW, Query.SortDirection.DESCENDING);
+
+    MegaMillion result = null;
+    PreparedQuery preparedQuery = datastoreService.prepare(query);
+    for (Entity entity:preparedQuery.asIterable(FetchOptions.Builder.withLimit(1))) {
       result = converter(entity);
     }
 

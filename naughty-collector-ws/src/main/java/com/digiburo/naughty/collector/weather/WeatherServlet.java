@@ -26,7 +26,11 @@ public class WeatherServlet extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     logger.info("command doGet:" + request.getRemoteAddr());
 
-    weatherHelper.execute();
+    if (request.getRemoteAddr().equals("0.1.0.1")) {
+      weatherHelper.execute();
+    } else {
+      logger.info("skipping invocation, bad remote address");
+    }
 
     response.setContentType("text/html");
     PrintWriter pw = response.getWriter();
