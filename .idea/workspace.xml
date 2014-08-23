@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bb677a8-6811-4133-a38a-7c0210dcd78c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/AbstractLinks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Daily3Helper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Daily3Response1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Daily4Helper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Daily4Response1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/Fantasy5Helper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Fantasy5Response1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/MegaMillionHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/MegaMillionResponse1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/PowerBallHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/PowerBallResponse1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfLinkOnly.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfNextLink.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfNextPreviousLink.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfPreviousLink.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/SuperLottoHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SuperLottoResponse1.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/Observation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/ObservationList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/ObservationRequest1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/ObservationResponse1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/utility/ObservationList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/ObservationHelper.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/curl/local_authorize.sh" afterPath="$PROJECT_DIR$/naughty-collector-ws/curl/local_daily3.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/WebServiceController.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/LottoWebService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/AbstractHelper.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/AbstractHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily4Dao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/DataBaseFacade.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/DataBaseFacade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Fantasy5Dao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/MegaMillionDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/PowerBallDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/SuperLottoDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherServlet.java" afterPath="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/weather/WeatherServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naughty-collector-ws/curl/remote_authorize.sh" afterPath="$PROJECT_DIR$/naughty-collector-ws/curl/remote_authorize.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="naughty-collector-gae.iws" />
@@ -92,15 +57,26 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="naughty-collector-gae" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="LottoServlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9779736" vertical-offset="879" max-vertical-offset="1800">
+              <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -113,7 +89,6 @@
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/IdeaProjects/BackProp1" value="8384294196000" />
         <entry key="$PROJECT_DIR$/../BackProp1" value="1397336219000" />
       </map>
     </option>
@@ -142,7 +117,6 @@
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/JsonDaily3List.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/JsonDaily3Request1.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/datastore/dao/Daily3Dao.java" />
-        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SelfLink.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/PreviousLink.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/NextLink.java" />
@@ -172,6 +146,7 @@
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/json/SuperLottoResponse1.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/SuperLottoHelper.java" />
         <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/ws1/LottoWebService.java" />
+        <option value="$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java" />
       </list>
     </option>
   </component>
@@ -361,41 +336,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-gae" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-gae" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naughty-collector-ws" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collector" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
+              <option name="myItemId" value="lotto" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,7 +353,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.Java" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/gs-accessing-data-jpa/complete/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gs-accessing-data-jpa/complete/build.gradle" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -584,6 +525,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -592,12 +539,6 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -648,6 +589,19 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -674,19 +628,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -876,15 +817,16 @@
       <workItem from="1404715671508" duration="41000" />
       <workItem from="1404715924605" duration="2569000" />
       <workItem from="1404718708942" duration="37000" />
+      <workItem from="1408827849322" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89644000" />
+    <option name="totallyTimeSpent" value="89727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="49" width="1637" height="1026" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -908,7 +850,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27335423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27335423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24089935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -919,12 +861,12 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -943,8 +885,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23947896" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1110,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,9 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6481481" vertical-offset="405" max-vertical-offset="1785">
           <caret line="69" column="81" selection-start-line="69" selection-start-column="81" selection-end-line="69" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46296296" vertical-offset="450" max-vertical-offset="1635">
           <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,14 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6944444" vertical-offset="420" max-vertical-offset="1665">
           <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8106996" vertical-offset="802" max-vertical-offset="1785">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
           <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.066079296" vertical-offset="0" max-vertical-offset="1200">
           <caret line="3" column="85" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,10 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11013216" vertical-offset="0" max-vertical-offset="1290">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1234,7 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1791483" vertical-offset="712" max-vertical-offset="1680">
           <caret line="112" column="33" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0029368" vertical-offset="262" max-vertical-offset="1410">
           <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10866373" vertical-offset="31" max-vertical-offset="1200">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,7 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5198238" vertical-offset="0" max-vertical-offset="1200">
           <caret line="99" column="24" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,7 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84875184" vertical-offset="457" max-vertical-offset="1410">
           <caret line="78" column="58" selection-start-line="63" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,7 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6035242" vertical-offset="1419" max-vertical-offset="2190">
           <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,7 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.88986784" vertical-offset="414" max-vertical-offset="1410">
           <caret line="77" column="17" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.030837005" vertical-offset="3354" max-vertical-offset="4140">
           <caret line="239" column="80" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,7 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1260">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5947136" vertical-offset="0" max-vertical-offset="1260">
           <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,9 +1227,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11894273" vertical-offset="1104" max-vertical-offset="1845">
           <caret line="79" column="67" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/naughty-collector-ws/src/main/java/com/digiburo/naughty/collector/lotto/LottoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9779736" vertical-offset="879" max-vertical-offset="1800">
+          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

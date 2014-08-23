@@ -112,7 +112,8 @@ public class LottoServlet extends HttpServlet {
     LottoCommand command = LottoCommand.UNKNOWN;
     if ((request.getRemoteAddr().equals("0.1.0.1")) || (request.getRemoteAddr().equals("127.0.0.1"))) {
       command = serviceStunt(request);
-      workFlow(command);
+      //lottery now handled by jaded nomad
+      //workFlow(command);
     } else {
       logger.info("skipping invocation, bad remote address");
     }
